@@ -1,0 +1,23 @@
+name: tf2
+
+channels:
+  - defaults
+  - anaconda
+
+dependencies:
+  - python==3.11.9
+  - pip
+  - jupyter
+  - chardet  # jupyter needs requests, which needs this.
+  - pmdarima
+  - prophet
+  - plotly  # used by prophet for plotting
+  - statsmodels
+  - scikit-learn
+  - pytest
+  - pip:
+      - pipdeptree # or conda install -c conda-forge pipdeptree
+      - matplotlib
+      - seaborn
+      - tensorflow
+      -

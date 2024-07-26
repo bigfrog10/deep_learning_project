@@ -3,6 +3,7 @@ import keras
 from keras import layers
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
+import seaborn as sns
 
 num_classes = 10
 input_shape = (28, 28, 1)
@@ -69,5 +70,8 @@ print("Test accuracy:", score[1])
 test_predictions = model.predict(x_test)
 confusion = confusion_matrix(y_test_1, np.argmax(test_predictions,axis=1))
 print(confusion)
+
+plt.figure(figsize=(16, 14))
+sns.heatmap(confusion, annot=True, fmt='d', annot_kws={'size': 20})
 
 plt.show()
