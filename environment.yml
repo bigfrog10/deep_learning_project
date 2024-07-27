@@ -20,4 +20,4 @@ dependencies:
       - matplotlib
       - seaborn
       - tensorflow
-      -
+      - kaleido # plotly show png
