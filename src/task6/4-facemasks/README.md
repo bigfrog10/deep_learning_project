@@ -4,6 +4,7 @@ The following images come from these links:
 - [From AlexNet to NASNet](https://towardsdatascience.com/from-alexnet-to-nasnet-a-brief-history-and-introduction-of-convolutional-neural-networks-cf63bf3320e1)
 - [Difference between AlexNet, VGGNet, ResNet, and Inception](https://towardsdatascience.com/the-w3h-of-alexnet-vggnet-resnet-and-inception-7baaaecccc96)
 - [VGG-16](https://www.geeksforgeeks.org/vgg-16-cnn-model/)
+- [Building powerful image classification models using very little data](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
 
 ![arch](arch.png) 
 

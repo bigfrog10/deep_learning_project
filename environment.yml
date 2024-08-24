@@ -15,9 +15,12 @@ dependencies:
   - statsmodels
   - scikit-learn
   - pytest
+  - graphviz
   - pip:
       - pipdeptree # or conda install -c conda-forge pipdeptree
       - matplotlib
       - seaborn
       - tensorflow
       - kaleido # plotly show png
+      - pydot
+      - visualkeras
