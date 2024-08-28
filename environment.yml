@@ -24,3 +24,4 @@ dependencies:
       - kaleido # plotly show png
       - pydot
       - visualkeras
+      - pytorch
