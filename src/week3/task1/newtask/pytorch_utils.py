@@ -137,9 +137,9 @@ def get_iou(bb1, bb2):
     iou = intersection_area / float(bb1_area + bb2_area - intersection_area)
     assert iou >= 0.0
     assert iou <= 1.0
-    print(intersection_area)
-    print(bb1_area)
-    print(bb2_area)
+    # print(intersection_area)
+    # print(bb1_area)
+    # print(bb2_area)
     return iou
 
 
